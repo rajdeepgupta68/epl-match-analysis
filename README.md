@@ -2,13 +2,12 @@
 
 A complete end-to-end data science project analysing 5 seasons of English Premier League data to uncover performance trends and predict match outcomes using machine learning.
 
-![Power BI Dashboard](outputs/dashboard_screenshot.png)
 
 ---
 
 ## Project Overview
 
-This project covers the full data science pipeline — from raw data collection to an interactive Power BI dashboard — using real EPL match data from 2018 to 2023.
+This project covers the full data science pipeline from raw data collection to an interactive Power BI dashboard using real EPL match data from 2018 to 2023.
 
 - **5 seasons** of EPL data (2018-19 to 2022-23)
 - **1,900+ matches** analysed
@@ -19,10 +18,10 @@ This project covers the full data science pipeline — from raw data collection 
 
 ## Tools & Technologies
 
-- **Python** — Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
-- **Jupyter Notebook** — analysis and modelling environment
-- **Power BI Desktop** — interactive dashboard
-- **Data source** — [football-data.co.uk](https://www.football-data.co.uk/englandm.php) (free, no login required)
+- **Python** - Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
+- **Jupyter Notebook** - analysis and modelling environment
+- **Power BI Desktop** - interactive dashboard
+- **Data source** - [football-data.co.uk](https://www.football-data.co.uk/englandm.php) (free, no login required)
 
 ---
 
@@ -32,9 +31,9 @@ This project covers the full data science pipeline — from raw data collection 
 epl-match-analysis/
 ├── data/                        ← raw CSV files (see Data Setup below)
 ├── notebooks/
-│   ├── 01_load_data.ipynb       ← load and merge 5 seasons of data
-│   ├── 02_eda.ipynb             ← data cleaning, EDA, and visualizations
-│   └── 03_model.ipynb           ← feature engineering, model training, evaluation
+│   ├── load_data.ipynb       ← load and merge 5 seasons of data
+│   ├── eda.ipynb             ← data cleaning, EDA, and visualizations
+│   └── model.ipynb           ← feature engineering, model training, evaluation
 ├── outputs/
 │   ├── result_distribution.png
 │   ├── goals_by_season.png
@@ -95,10 +94,10 @@ jupyter notebook
 
 ## Key Findings
 
-- **Home advantage is real** — home teams win 44% of matches vs 33% for away teams
+- **Home advantage is real** home teams win 44% of matches vs 33% for away teams
 - **Man City dominated** home fixtures with 78 home wins across 5 seasons, followed by Liverpool (73)
 - **Shots on target** is the strongest predictor of match outcome
-- **Draws are the hardest** outcome to predict — a known challenge across football analytics
+- **Draws are the hardest** outcome to predict which is a known challenge across football analytics
 
 ---
 
@@ -111,32 +110,32 @@ jupyter notebook
 | Best predicted class | Home Win (F1: 0.73) |
 | Hardest class | Draw (F1: 0.06) |
 
-The model performs well on Home Wins and Away Wins but struggles with Draws — which is consistent with findings across the football analytics industry.
+The model performs well on Home Wins and Away Wins but struggles with Draws which is consistent with findings across the football analytics industry.
 
 ---
 
 ## Power BI Dashboard
 
 The dashboard includes:
-- **KPI cards** — total matches, avg home goals, avg away goals
-- **Pie chart** — match outcome distribution
-- **Line chart** — average goals per season trend
-- **Bar chart** — home wins by team (ranked)
-- **Table** — predicted vs actual results with conditional formatting
-- **Slicers** — filter by season and home team
+- **KPI cards** - total matches, avg home goals, avg away goals
+- **Pie chart** - match outcome distribution
+- **Line chart** - average goals per season trend
+- **Bar chart** - home wins by team (ranked)
+- **Table** - predicted vs actual results with conditional formatting
+- **Slicers** - filter by season and home team
 
 ---
 
 ## Potential Future Improvements
 
-- **Improve Draw prediction** — class imbalance handling, ensemble models (Random Forest, XGBoost)
-- **Pre-match prediction** — replace post-match stats with rolling averages (last 5 games) so the model can predict outcomes before kick-off
-- **Player-level features** — incorporate squad strength, injuries, and suspensions
-- **Betting odds as features** — market odds are strong predictors of match outcomes
-- **Deploy as a web app** — build a simple Streamlit app where users input two teams and get a predicted outcome
+- **Improve Draw prediction** - class imbalance handling, ensemble models (Random Forest, XGBoost)
+- **Pre-match prediction** - replace post-match stats with rolling averages (last 5 games) so the model can predict outcomes before kick-off
+- **Player-level features** - incorporate squad strength, injuries, and suspensions
+- **Betting odds as features** - market odds are strong predictors of match outcomes
+- **Deploy as a web app** - build a simple Streamlit app where users input two teams and get a predicted outcome
 
 ---
 
 ## Author
 
-Built as a portfolio data science project covering data collection, exploratory analysis, machine learning, and business intelligence visualisation.
+Built as a portfolio data science project covering data collection, exploratory analysis, machine learning, and business intelligence visualization.
