@@ -30,10 +30,9 @@ This project covers the full data science pipeline from raw data collection to a
 ```
 epl-match-analysis/
 ├── data/                        ← raw CSV files (see Data Setup below)
-├── notebooks/
-│   ├── load_data.ipynb       ← load and merge 5 seasons of data
-│   ├── eda.ipynb             ← data cleaning, EDA, and visualizations
-│   └── model.ipynb           ← feature engineering, model training, evaluation
+├── load_data.ipynb       ← load and merge 5 seasons of data
+├── eda.ipynb             ← data cleaning, EDA, and visualizations
+└── model.ipynb           ← feature engineering, model training, evaluation
 ├── outputs/
 │   ├── result_distribution.png
 │   ├── goals_by_season.png
