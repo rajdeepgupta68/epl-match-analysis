@@ -2,6 +2,7 @@
 
 A complete end-to-end data science project analysing 5 seasons of English Premier League data to uncover performance trends and predict match outcomes using machine learning.
 
+![Power BI Dashboard](outputs/dashboard_screenshot.png)
 
 ---
 
