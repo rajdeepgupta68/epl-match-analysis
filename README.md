@@ -138,4 +138,4 @@ The dashboard includes:
 
 ## Author
 
-Built as a portfolio data science project covering data collection, exploratory analysis, machine learning, and business intelligence visualization.
+Built as a portfolio data science project covering data collection, exploratory analysis, machine learning, and business intelligence visualization. Man United fan here btw.
