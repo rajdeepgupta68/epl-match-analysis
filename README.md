@@ -67,7 +67,7 @@ The raw data files are not included in this repository. To download them:
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/epl-match-analysis.git
+git clone https://github.com//rajdeepgupta68/epl-match-analysis.git
 cd epl-match-analysis
 ```
 
@@ -82,9 +82,9 @@ jupyter notebook
 ```
 
 **4. Run the notebooks in order**
-- `01_load_data.ipynb` → loads and merges all seasons
-- `02_eda.ipynb` → cleans data and generates visualizations
-- `03_model.ipynb` → trains the model and exports predictions
+- `load_data.ipynb` → loads and merges all seasons
+- `eda.ipynb` → cleans data and generates visualizations
+- `model.ipynb` → trains the model and exports predictions
 
 **5. Open the dashboard**
 - Open `EPL_Dashboard.pbix` in Power BI Desktop
@@ -94,7 +94,7 @@ jupyter notebook
 
 ## Key Findings
 
-- **Home advantage is real** home teams win 44% of matches vs 33% for away teams
+- **Home advantage is real**, home teams win 44% of matches vs 33% for away teams
 - **Man City dominated** home fixtures with 78 home wins across 5 seasons, followed by Liverpool (73)
 - **Shots on target** is the strongest predictor of match outcome
 - **Draws are the hardest** outcome to predict which is a known challenge across football analytics
